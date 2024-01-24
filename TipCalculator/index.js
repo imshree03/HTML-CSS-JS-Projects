@@ -9,7 +9,6 @@ function calculateTotal() {
   const billValue = billInput.value;
   const tipValue = tipInput.value;
   const totalValue = billValue * (1 + tipValue / 100);
-  total;
   total.innerHTML = ` $ ${totalValue.toFixed(2)}`;
   console.log(totalValue);
 }
